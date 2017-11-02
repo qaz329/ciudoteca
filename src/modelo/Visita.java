@@ -3,19 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ciudoteca;
+package modelo;
+
+import java.util.Date;
 
 /**
  *
  * @author joane
  */
-public class Ciudoteca {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class Visita {
+    
+    private int id;
+    private Date fecha;
+    private Lugar lugar;
+    private String comentario;
+    private int valoracion;
     
 }
